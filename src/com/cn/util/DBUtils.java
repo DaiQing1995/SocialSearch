@@ -26,7 +26,7 @@ public class DBUtils {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			// 建立链接。有三个参数，第一个是访问数据库URL地址，第二个参数是账号，第三是密码
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/socialsearch", "root", "daiqing123");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3307/socialsearch", "root", "");
 			//创建发送SQL语句的stat对象
 			stat=conn.createStatement();
 		} catch (ClassNotFoundException e) {
@@ -76,7 +76,7 @@ public class DBUtils {
 			count=stat.executeUpdate(sql);
 		} catch (Exception e) {
 			// TODO: handle exception
-			System.out.println(sql);
+			System.out.println("error insert \"" + sql + "\"");
 			System.out.println("insert error");
 		}
 		return count;
