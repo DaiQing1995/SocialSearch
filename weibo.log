@@ -1,0 +1,342 @@
+0    DEBUG [2016-10-18 20:56:38]  Request:
+1    DEBUG [2016-10-18 20:56:38]  GET:https://api.weibo.com/2/account/profile/school_list.json
+53   DEBUG [2016-10-18 20:56:38]  Authorization: OAuth2 2.004DezPC6P3DdD00518038e19iDRoD
+53   DEBUG [2016-10-18 20:56:38]  API-RemoteIP: 10.170.55.142
+1093 DEBUG [2016-10-18 20:56:39]  Response:
+1093 DEBUG [2016-10-18 20:56:39]  https StatusCode:200
+1093 DEBUG [2016-10-18 20:56:39]  Server:nginx/1.6.1
+1093 DEBUG [2016-10-18 20:56:39]  Date:Tue, 18 Oct 2016 12:56:39 GMT
+1093 DEBUG [2016-10-18 20:56:39]  Content-Type:application/json;charset=UTF-8
+1094 DEBUG [2016-10-18 20:56:39]  Transfer-Encoding:chunked
+1094 DEBUG [2016-10-18 20:56:39]  Connection:keep-alive
+1094 DEBUG [2016-10-18 20:56:39]  Api-Server-IP:10.77.108.51
+1098 DEBUG [2016-10-18 20:56:39]  Vary:Accept-Encoding
+1099 DEBUG [2016-10-18 20:56:39]  SINA-LB:aGEuMTc2LmcxLnNlLmxiLnNpbmFub2RlLmNvbQ==
+1099 DEBUG [2016-10-18 20:56:39]  SINA-TS:NGI4OGMzNjggMCAxIDEgNyAyNTgK
+1101 WARN  [2016-10-18 20:56:39]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1103 DEBUG [2016-10-18 20:56:39]  [{"id":243967,"name":"北京大学"},{"id":243969,"name":"北京航空航天大学"},{"id":243970,"name":"北京邮电大学"},{"id":243971,"name":"北京师范大学"},{"id":243973,"name":"北京外国语大学"},{"id":243974,"name":"北京科技大学"},{"id":243976,"name":"北京理工大学"},{"id":243977,"name":"北京林业大学"},{"id":243978,"name":"北京交通大学"},{"id":243980,"name":"北京信息科技大学"},{"id":243981,"name":"北京工业大学"},{"id":243982,"name":"北京化工大学"},{"id":243988,"name":"北京中医药大学"},{"id":243991,"name":"北方工业大学"},{"id":244000,"name":"北京体育大学"},{"id":244001,"name":"北京工商大学"},{"id":244002,"name":"北京联合大学"},{"id":244006,"name":"北京电子科技学院"},{"id":244009,"name":"北京建筑大学"},{"id":244010,"name":"北京印刷学院"},{"id":244011,"name":"北京石油化工学院"},{"id":244013,"name":"北京农学院"},{"id":244016,"name":"北京物资学院"},{"id":244017,"name":"北京警察学院"},{"id":244020,"name":"北京城市学院"},{"id":244021,"name":"北京电影学院"},{"id":244029,"name":"北京军医学院"},{"id":244032,"name":"北京大学医学部"},{"id":244033,"name":"北京现代职业技术学院"},{"id":244034,"name":"北京现代音乐学院"},{"id":244035,"name":"北京锡华国际经贸职业学院"},{"id":244036,"name":"北京盛基艺术学校"},{"id":244037,"name":"北京培黎职业学院"},{"id":244038,"name":"北京科技职业学院"},{"id":244039,"name":"北京科技经营管理学院"},{"id":244040,"name":"北京经贸职业学院"},{"id":244041,"name":"北京经济技术职业学院"},{"id":244042,"name":"北京京北职业技术学院"},{"id":244043,"name":"北京交通职业技术学院"},{"id":244044,"name":"北京吉利学院"},{"id":244045,"name":"北京汇佳职业学院"},{"id":244046,"name":"北京工业职业技术学院"},{"id":244047,"name":"北京工商管理专修学院"},{"id":244048,"name":"北京电子科技职业学院"},{"id":244049,"name":"北京财贸职业学院"},{"id":244050,"name":"北京北大方正软件技术学院"},{"id":244051,"name":"北大资源学院美术学院"},{"id":244052,"name":"北京人文大学"},{"id":244054,"name":"北京应用技术大学"},{"id":244058,"name":"北京民族大学"},{"id":245989,"name":"北京语言大学"},{"id":245992,"name":"北京第二外国语学院"},{"id":245993,"name":"北京工商大学嘉华学院"},{"id":245995,"name":"北京工业大学耿丹学院"},{"id":245998,"name":"北京邮电大学世纪学院"},{"id":245999,"name":"北京信息职业技术学院"},{"id":246001,"name":"北京青年政治学院"},{"id":246002,"name":"北京财经专修学院"},{"id":246003,"name":"北京经济管理职业学院"},{"id":246005,"name":"北大资源学院"},{"id":246569,"name":"北京政法职业学院"},{"id":246575,"name":"北京金融学院"},{"id":246630,"name":"北京美国英语语言学院"},{"id":246686,"name":"北京服装学院"},{"id":246713,"name":"北京舞蹈学院"},{"id":246744,"name":"北京广播电视大学"},{"id":246767,"name":"北京建设大学"},{"id":246845,"name":"北京劳动保障职业学院"},{"id":246864,"name":"北京国际商务学院"},{"id":246899,"name":"北京农业职业学院"},{"id":246902,"name":"北京数字影视学院"},{"id":246904,"name":"北京社会管理职业学院"},{"id":246915,"name":"北京翻译研修学院"},{"id":246920,"name":"北京市新媒体技师学院"},{"id":246925,"name":"北京翻译学院"},{"id":246934,"name":"北京工业大学艺术设计学院"},{"id":246941,"name":"北京新圆明职业学院"},{"id":246947,"name":"北京中国驻颜美容学院"},{"id":250324,"name":"北京中山学院"},{"id":250325,"name":"北京教育学院"},{"id":250364,"name":"北京华夏管理学院"},{"id":250425,"name":"北京科技大学延庆分校"},{"id":250584,"name":"北京工业大学实验学院"},{"id":250590,"name":"北京兴华大学"},{"id":250710,"name":"北京地质大学"},{"id":250726,"name":"北京传媒学院"},{"id":250729,"name":"北京市崇文区职工大学"},{"id":250733,"name":"北京政法学院"},{"id":250734,"name":"北京京文国际学院"},{"id":250735,"name":"北京旅游专修学院"},{"id":250737,"name":"北京京海研修学院"},{"id":250741,"name":"北京机械工业学院"},{"id":250744,"name":"北京华大研修学院"},{"id":250810,"name":"北京卓达经济管理学院"},{"id":250825,"name":"北京中新企业管理学院"},{"id":250826,"name":"北京市宣武红旗大学"},{"id":250830,"name":"北京欢乐时空动漫学院"},{"id":250831,"name":"北京京师科技学院"},{"id":250839,"name":"北京北电影视艺术学校"},{"id":250841,"name":"北京解放军艺术学院"},{"id":250844,"name":"北京东方研修学院"},{"id":250847,"name":"北京戏曲艺术职业学院"},{"id":250850,"name":"北京企业管理研修学院"},{"id":250853,"name":"北京经贸职业学院航空服务学院"},{"id":250866,"name":"北京文理研修学院"},{"id":250869,"name":"北京演艺专修学院"},{"id":250873,"name":"北京第二外国语大学中瑞酒店管理学院"},{"id":250879,"name":"北京工商管理学院"},{"id":250883,"name":"北京爱迪国际学校"},{"id":250885,"name":"北京国际金融学院"},{"id":250888,"name":"北京齐鲁音乐学院"},{"id":250889,"name":"北京第二外国语学院中瑞酒店管理学院"},{"id":250891,"name":"北京经济技术研修学院"},{"id":250892,"name":"北京八维研修学院"},{"id":250893,"name":"北京军地专修学院"},{"id":250894,"name":"北京交通管理干部学院"},{"id":250895,"name":"北京财经学院"},{"id":250896,"name":"北京邮电大学网络教育学院"},{"id":250897,"name":"北大国际（BIMBA）"},{"id":250898,"name":"北京市东城区职工业余大学"},{"id":250899,"name":"北京黄埔大学"},{"id":250903,"name":"北京京华医科大学"},{"id":250904,"name":"北京首都经济贸易大学华侨学院"},{"id":250906,"name":"北京国际经贸学院"},{"id":250907,"name":"北京黄浦大学"},{"id":250908,"name":"北京经济管理干部学院"},{"id":250909,"name":"北京市电子科技职业学院"},{"id":250910,"name":"北京高级时装艺术学校"},{"id":250913,"name":"北京农业大学"},{"id":250915,"name":"北京服装学院-莱佛士国际学院"},{"id":250916,"name":"北京市劳动保障职业学院"},{"id":250917,"name":"北京体育职业学院"},{"id":250918,"name":"北京交通运输职业学院"},{"id":250959,"name":"北京工商学院"},{"id":251109,"name":"北京气象学院"},{"id":251110,"name":"北京公安大学"},{"id":251118,"name":"北京市建设大学"},{"id":251120,"name":"北京国际工商管理研修学院"},{"id":251122,"name":"北京开能学校"},{"id":251155,"name":"北京影视学院"},{"id":251159,"name":"北京艺术设计职业学院"},{"id":251160,"name":"北京长城研修学院"},{"id":251163,"name":"北方工商管理研修学院"},{"id":251164,"name":"北京市海淀区职工大学"},{"id":251168,"name":"北京工商大学继续教育学院"},{"id":251171,"name":"北京计算机专修学院"},{"id":251174,"name":"北方交通大学"},{"id":251175,"name":"北京国际经贸研修学院"},{"id":251176,"name":"北京中央广播电视大学"},{"id":251183,"name":"北京语言大学继续教育学院"},{"id":251188,"name":"北京师范大学继续教育学院"},{"id":251196,"name":"北京涉外经济学院"},{"id":251198,"name":"北京涉外艺术学院"},{"id":251200,"name":"北京无线电动力技工学校"},{"id":251221,"name":"北京毛戈平形象设计艺术学校"},{"id":251223,"name":"北京高等秘书研修学院"},{"id":251224,"name":"北京市商业学校"},{"id":251228,"name":"北京外国语大学国际商学院"},{"id":251230,"name":"北京市西城经济科学大学"},{"id":251237,"name":"北京电子职业技术学院"},{"id":251240,"name":"北京现代管理大学"},{"id":251246,"name":"北京新媒体技师学院"},{"id":251262,"name":"北京人民警察学院"},{"id":251278,"name":"北京外事研修学院"},{"id":251307,"name":"北京装甲兵工程学院"},{"id":251310,"name":"北京经济研修学院"},{"id":251313,"name":"北方工商管理学院"},{"id":251452,"name":"北京迷笛音乐学院"},{"id":253938,"name":"北京明园大学"},{"id":257658,"name":"北京东方研修学院航空旅游分院"},{"id":266742,"name":"北京建筑工程学院"},{"id":273821,"name":"北京医学院"},{"id":273822,"name":"北京医科大学"},{"id":273823,"name":"北京信息工程学院"},{"id":273824,"name":"北京协和医科大学"},{"id":273825,"name":"北京外国语学院"},{"id":273826,"name":"北京涉外经济专修学院"},{"id":273827,"name":"北京企业管理学院"},{"id":273828,"name":"北京培黎大学"},{"id":273829,"name":"北京联合大学应用文理学院"},{"id":273830,"name":"北京联合大学应用科技学院"},{"id":273831,"name":"北京联合大学信息工程学院"},{"id":273832,"name":"北京联合大学师范学院"},{"id":273833,"name":"北京联合大学商务学院"},{"id":273834,"name":"北京联合大学旅游学院"},{"id":273835,"name":"北京联合大学机电学院"},{"id":273836,"name":"北京联合大学广告学院"},{"id":273837,"name":"北京联合大学(小营校区)"},{"id":273838,"name":"北京科技大学(管庄校区)"},{"id":273839,"name":"北京解放军艺术学院"},{"id":273840,"name":"北京工业大学通州分校"},{"id":273841,"name":"北京高等秘书学院"},{"id":273842,"name":"北京第二外国语大学"},{"id":273843,"name":"北京大学马克思主义学院"},{"id":273844,"name":"北京北大方正软件职业技术学院"},{"id":273845,"name":"北大资源美术学院"},{"id":273860,"name":"北京现代软件学院"},{"id":255794,"name":"北京市总工会职工大学"},{"id":257268,"name":"北京协和医学院"},{"id":257352,"name":"北京审美美容美发化妆造型艺术学校"},{"id":257687,"name":"北京市工贸高级技工学校"},{"id":246592,"name":"北京数字影视学院"},{"id":254875,"name":"北京社会函授大学"},{"id":257252,"name":"北京市委党校"},{"id":273582,"name":"北京卫生职业学院"},{"id":246897,"name":"北京医学高等专科学校"},{"id":251123,"name":"北京中医药大学针灸学院"},{"id":257158,"name":"北京航空航天现代远程学院"},{"id":257368,"name":"北京市政法管理干部学院"},{"id":257925,"name":"北京市社会科学院"},{"id":257934,"name":"北京东方文化艺术学院"},{"id":266543,"name":"北京商业管理干部学院"},{"id":246901,"name":"北京数字影视学院"},{"id":257180,"name":"北京理工大学远程教育学院"},{"id":257222,"name":"北京商学院"},{"id":257239,"name":"北京东方大学"},{"id":257265,"name":"北京珠宝首饰研修学院"},{"id":257267,"name":"北京水晶石数字教育学院"},{"id":257926,"name":"北京铁道管理干部学院"},{"id":273581,"name":"北京艺术传媒职业学院"},{"id":257165,"name":"北京市计划劳动管理干部学院"},{"id":257941,"name":"北京计划劳动管理干部学院"},{"id":257935,"name":"北京瀚林职业学院"},{"id":261233,"name":"北京经济技术学院"},{"id":255352,"name":"北京影视研修学院"},{"id":256073,"name":"北京财贸管理干部学院"}]
+
+1116 INFO  [2016-10-18 20:56:39]  School [id=243967, name=北京大学]
+1116 INFO  [2016-10-18 20:56:39]  School [id=243969, name=北京航空航天大学]
+1116 INFO  [2016-10-18 20:56:39]  School [id=243970, name=北京邮电大学]
+1116 INFO  [2016-10-18 20:56:39]  School [id=243971, name=北京师范大学]
+1116 INFO  [2016-10-18 20:56:39]  School [id=243973, name=北京外国语大学]
+1122 INFO  [2016-10-18 20:56:39]  School [id=243974, name=北京科技大学]
+1123 INFO  [2016-10-18 20:56:39]  School [id=243976, name=北京理工大学]
+1123 INFO  [2016-10-18 20:56:39]  School [id=243977, name=北京林业大学]
+1123 INFO  [2016-10-18 20:56:39]  School [id=243978, name=北京交通大学]
+1123 INFO  [2016-10-18 20:56:39]  School [id=243980, name=北京信息科技大学]
+1123 INFO  [2016-10-18 20:56:39]  School [id=243981, name=北京工业大学]
+1124 INFO  [2016-10-18 20:56:39]  School [id=243982, name=北京化工大学]
+1124 INFO  [2016-10-18 20:56:39]  School [id=243988, name=北京中医药大学]
+1124 INFO  [2016-10-18 20:56:39]  School [id=243991, name=北方工业大学]
+1124 INFO  [2016-10-18 20:56:39]  School [id=244000, name=北京体育大学]
+1127 INFO  [2016-10-18 20:56:39]  School [id=244001, name=北京工商大学]
+1128 INFO  [2016-10-18 20:56:39]  School [id=244002, name=北京联合大学]
+1128 INFO  [2016-10-18 20:56:39]  School [id=244006, name=北京电子科技学院]
+1128 INFO  [2016-10-18 20:56:39]  School [id=244009, name=北京建筑大学]
+1128 INFO  [2016-10-18 20:56:39]  School [id=244010, name=北京印刷学院]
+1128 INFO  [2016-10-18 20:56:39]  School [id=244011, name=北京石油化工学院]
+1128 INFO  [2016-10-18 20:56:39]  School [id=244013, name=北京农学院]
+1129 INFO  [2016-10-18 20:56:39]  School [id=244016, name=北京物资学院]
+1129 INFO  [2016-10-18 20:56:39]  School [id=244017, name=北京警察学院]
+1129 INFO  [2016-10-18 20:56:39]  School [id=244020, name=北京城市学院]
+1129 INFO  [2016-10-18 20:56:39]  School [id=244021, name=北京电影学院]
+1129 INFO  [2016-10-18 20:56:39]  School [id=244029, name=北京军医学院]
+1129 INFO  [2016-10-18 20:56:39]  School [id=244032, name=北京大学医学部]
+1129 INFO  [2016-10-18 20:56:39]  School [id=244033, name=北京现代职业技术学院]
+1130 INFO  [2016-10-18 20:56:39]  School [id=244034, name=北京现代音乐学院]
+1130 INFO  [2016-10-18 20:56:39]  School [id=244035, name=北京锡华国际经贸职业学院]
+1130 INFO  [2016-10-18 20:56:39]  School [id=244036, name=北京盛基艺术学校]
+1130 INFO  [2016-10-18 20:56:39]  School [id=244037, name=北京培黎职业学院]
+1130 INFO  [2016-10-18 20:56:39]  School [id=244038, name=北京科技职业学院]
+1130 INFO  [2016-10-18 20:56:39]  School [id=244039, name=北京科技经营管理学院]
+1130 INFO  [2016-10-18 20:56:39]  School [id=244040, name=北京经贸职业学院]
+1130 INFO  [2016-10-18 20:56:39]  School [id=244041, name=北京经济技术职业学院]
+1131 INFO  [2016-10-18 20:56:39]  School [id=244042, name=北京京北职业技术学院]
+1131 INFO  [2016-10-18 20:56:39]  School [id=244043, name=北京交通职业技术学院]
+1131 INFO  [2016-10-18 20:56:39]  School [id=244044, name=北京吉利学院]
+1131 INFO  [2016-10-18 20:56:39]  School [id=244045, name=北京汇佳职业学院]
+1131 INFO  [2016-10-18 20:56:39]  School [id=244046, name=北京工业职业技术学院]
+1132 INFO  [2016-10-18 20:56:39]  School [id=244047, name=北京工商管理专修学院]
+1132 INFO  [2016-10-18 20:56:39]  School [id=244048, name=北京电子科技职业学院]
+1132 INFO  [2016-10-18 20:56:39]  School [id=244049, name=北京财贸职业学院]
+1132 INFO  [2016-10-18 20:56:39]  School [id=244050, name=北京北大方正软件技术学院]
+1132 INFO  [2016-10-18 20:56:39]  School [id=244051, name=北大资源学院美术学院]
+1133 INFO  [2016-10-18 20:56:39]  School [id=244052, name=北京人文大学]
+1133 INFO  [2016-10-18 20:56:39]  School [id=244054, name=北京应用技术大学]
+1133 INFO  [2016-10-18 20:56:39]  School [id=244058, name=北京民族大学]
+1133 INFO  [2016-10-18 20:56:39]  School [id=245989, name=北京语言大学]
+1133 INFO  [2016-10-18 20:56:39]  School [id=245992, name=北京第二外国语学院]
+1133 INFO  [2016-10-18 20:56:39]  School [id=245993, name=北京工商大学嘉华学院]
+1133 INFO  [2016-10-18 20:56:39]  School [id=245995, name=北京工业大学耿丹学院]
+1133 INFO  [2016-10-18 20:56:39]  School [id=245998, name=北京邮电大学世纪学院]
+1134 INFO  [2016-10-18 20:56:39]  School [id=245999, name=北京信息职业技术学院]
+1134 INFO  [2016-10-18 20:56:39]  School [id=246001, name=北京青年政治学院]
+1134 INFO  [2016-10-18 20:56:39]  School [id=246002, name=北京财经专修学院]
+1134 INFO  [2016-10-18 20:56:39]  School [id=246003, name=北京经济管理职业学院]
+1134 INFO  [2016-10-18 20:56:39]  School [id=246005, name=北大资源学院]
+1135 INFO  [2016-10-18 20:56:39]  School [id=246569, name=北京政法职业学院]
+1135 INFO  [2016-10-18 20:56:39]  School [id=246575, name=北京金融学院]
+1135 INFO  [2016-10-18 20:56:39]  School [id=246630, name=北京美国英语语言学院]
+1135 INFO  [2016-10-18 20:56:39]  School [id=246686, name=北京服装学院]
+1135 INFO  [2016-10-18 20:56:39]  School [id=246713, name=北京舞蹈学院]
+1136 INFO  [2016-10-18 20:56:39]  School [id=246744, name=北京广播电视大学]
+1136 INFO  [2016-10-18 20:56:39]  School [id=246767, name=北京建设大学]
+1136 INFO  [2016-10-18 20:56:39]  School [id=246845, name=北京劳动保障职业学院]
+1136 INFO  [2016-10-18 20:56:39]  School [id=246864, name=北京国际商务学院]
+1136 INFO  [2016-10-18 20:56:39]  School [id=246899, name=北京农业职业学院]
+1137 INFO  [2016-10-18 20:56:39]  School [id=246902, name=北京数字影视学院]
+1137 INFO  [2016-10-18 20:56:39]  School [id=246904, name=北京社会管理职业学院]
+1137 INFO  [2016-10-18 20:56:39]  School [id=246915, name=北京翻译研修学院]
+1137 INFO  [2016-10-18 20:56:39]  School [id=246920, name=北京市新媒体技师学院]
+1137 INFO  [2016-10-18 20:56:39]  School [id=246925, name=北京翻译学院]
+1137 INFO  [2016-10-18 20:56:39]  School [id=246934, name=北京工业大学艺术设计学院]
+1138 INFO  [2016-10-18 20:56:39]  School [id=246941, name=北京新圆明职业学院]
+1138 INFO  [2016-10-18 20:56:39]  School [id=246947, name=北京中国驻颜美容学院]
+1138 INFO  [2016-10-18 20:56:39]  School [id=250324, name=北京中山学院]
+1138 INFO  [2016-10-18 20:56:39]  School [id=250325, name=北京教育学院]
+1138 INFO  [2016-10-18 20:56:39]  School [id=250364, name=北京华夏管理学院]
+1138 INFO  [2016-10-18 20:56:39]  School [id=250425, name=北京科技大学延庆分校]
+1139 INFO  [2016-10-18 20:56:39]  School [id=250584, name=北京工业大学实验学院]
+1139 INFO  [2016-10-18 20:56:39]  School [id=250590, name=北京兴华大学]
+1139 INFO  [2016-10-18 20:56:39]  School [id=250710, name=北京地质大学]
+1139 INFO  [2016-10-18 20:56:39]  School [id=250726, name=北京传媒学院]
+1139 INFO  [2016-10-18 20:56:39]  School [id=250729, name=北京市崇文区职工大学]
+1139 INFO  [2016-10-18 20:56:39]  School [id=250733, name=北京政法学院]
+1139 INFO  [2016-10-18 20:56:39]  School [id=250734, name=北京京文国际学院]
+1139 INFO  [2016-10-18 20:56:39]  School [id=250735, name=北京旅游专修学院]
+1139 INFO  [2016-10-18 20:56:39]  School [id=250737, name=北京京海研修学院]
+1140 INFO  [2016-10-18 20:56:39]  School [id=250741, name=北京机械工业学院]
+1140 INFO  [2016-10-18 20:56:39]  School [id=250744, name=北京华大研修学院]
+1140 INFO  [2016-10-18 20:56:39]  School [id=250810, name=北京卓达经济管理学院]
+1140 INFO  [2016-10-18 20:56:39]  School [id=250825, name=北京中新企业管理学院]
+1140 INFO  [2016-10-18 20:56:39]  School [id=250826, name=北京市宣武红旗大学]
+1140 INFO  [2016-10-18 20:56:39]  School [id=250830, name=北京欢乐时空动漫学院]
+1140 INFO  [2016-10-18 20:56:39]  School [id=250831, name=北京京师科技学院]
+1140 INFO  [2016-10-18 20:56:39]  School [id=250839, name=北京北电影视艺术学校]
+1141 INFO  [2016-10-18 20:56:39]  School [id=250841, name=北京解放军艺术学院]
+1141 INFO  [2016-10-18 20:56:39]  School [id=250844, name=北京东方研修学院]
+1141 INFO  [2016-10-18 20:56:39]  School [id=250847, name=北京戏曲艺术职业学院]
+1141 INFO  [2016-10-18 20:56:39]  School [id=250850, name=北京企业管理研修学院]
+1141 INFO  [2016-10-18 20:56:39]  School [id=250853, name=北京经贸职业学院航空服务学院]
+1141 INFO  [2016-10-18 20:56:39]  School [id=250866, name=北京文理研修学院]
+1142 INFO  [2016-10-18 20:56:39]  School [id=250869, name=北京演艺专修学院]
+1142 INFO  [2016-10-18 20:56:39]  School [id=250873, name=北京第二外国语大学中瑞酒店管理学院]
+1142 INFO  [2016-10-18 20:56:39]  School [id=250879, name=北京工商管理学院]
+1142 INFO  [2016-10-18 20:56:39]  School [id=250883, name=北京爱迪国际学校]
+1142 INFO  [2016-10-18 20:56:39]  School [id=250885, name=北京国际金融学院]
+1142 INFO  [2016-10-18 20:56:39]  School [id=250888, name=北京齐鲁音乐学院]
+1143 INFO  [2016-10-18 20:56:39]  School [id=250889, name=北京第二外国语学院中瑞酒店管理学院]
+1143 INFO  [2016-10-18 20:56:39]  School [id=250891, name=北京经济技术研修学院]
+1143 INFO  [2016-10-18 20:56:39]  School [id=250892, name=北京八维研修学院]
+1143 INFO  [2016-10-18 20:56:39]  School [id=250893, name=北京军地专修学院]
+1143 INFO  [2016-10-18 20:56:39]  School [id=250894, name=北京交通管理干部学院]
+1143 INFO  [2016-10-18 20:56:39]  School [id=250895, name=北京财经学院]
+1143 INFO  [2016-10-18 20:56:39]  School [id=250896, name=北京邮电大学网络教育学院]
+1143 INFO  [2016-10-18 20:56:39]  School [id=250897, name=北大国际（BIMBA）]
+1144 INFO  [2016-10-18 20:56:39]  School [id=250898, name=北京市东城区职工业余大学]
+1144 INFO  [2016-10-18 20:56:39]  School [id=250899, name=北京黄埔大学]
+1144 INFO  [2016-10-18 20:56:39]  School [id=250903, name=北京京华医科大学]
+1144 INFO  [2016-10-18 20:56:39]  School [id=250904, name=北京首都经济贸易大学华侨学院]
+1144 INFO  [2016-10-18 20:56:39]  School [id=250906, name=北京国际经贸学院]
+1145 INFO  [2016-10-18 20:56:39]  School [id=250907, name=北京黄浦大学]
+1145 INFO  [2016-10-18 20:56:39]  School [id=250908, name=北京经济管理干部学院]
+1145 INFO  [2016-10-18 20:56:39]  School [id=250909, name=北京市电子科技职业学院]
+1145 INFO  [2016-10-18 20:56:39]  School [id=250910, name=北京高级时装艺术学校]
+1145 INFO  [2016-10-18 20:56:39]  School [id=250913, name=北京农业大学]
+1145 INFO  [2016-10-18 20:56:39]  School [id=250915, name=北京服装学院-莱佛士国际学院]
+1145 INFO  [2016-10-18 20:56:39]  School [id=250916, name=北京市劳动保障职业学院]
+1147 INFO  [2016-10-18 20:56:39]  School [id=250917, name=北京体育职业学院]
+1150 INFO  [2016-10-18 20:56:39]  School [id=250918, name=北京交通运输职业学院]
+1150 INFO  [2016-10-18 20:56:39]  School [id=250959, name=北京工商学院]
+1151 INFO  [2016-10-18 20:56:39]  School [id=251109, name=北京气象学院]
+1151 INFO  [2016-10-18 20:56:39]  School [id=251110, name=北京公安大学]
+1151 INFO  [2016-10-18 20:56:39]  School [id=251118, name=北京市建设大学]
+1151 INFO  [2016-10-18 20:56:39]  School [id=251120, name=北京国际工商管理研修学院]
+1151 INFO  [2016-10-18 20:56:39]  School [id=251122, name=北京开能学校]
+1152 INFO  [2016-10-18 20:56:39]  School [id=251155, name=北京影视学院]
+1152 INFO  [2016-10-18 20:56:39]  School [id=251159, name=北京艺术设计职业学院]
+1152 INFO  [2016-10-18 20:56:39]  School [id=251160, name=北京长城研修学院]
+1153 INFO  [2016-10-18 20:56:39]  School [id=251163, name=北方工商管理研修学院]
+1153 INFO  [2016-10-18 20:56:39]  School [id=251164, name=北京市海淀区职工大学]
+1153 INFO  [2016-10-18 20:56:39]  School [id=251168, name=北京工商大学继续教育学院]
+1153 INFO  [2016-10-18 20:56:39]  School [id=251171, name=北京计算机专修学院]
+1153 INFO  [2016-10-18 20:56:39]  School [id=251174, name=北方交通大学]
+1153 INFO  [2016-10-18 20:56:39]  School [id=251175, name=北京国际经贸研修学院]
+1153 INFO  [2016-10-18 20:56:39]  School [id=251176, name=北京中央广播电视大学]
+1153 INFO  [2016-10-18 20:56:39]  School [id=251183, name=北京语言大学继续教育学院]
+1153 INFO  [2016-10-18 20:56:39]  School [id=251188, name=北京师范大学继续教育学院]
+1153 INFO  [2016-10-18 20:56:39]  School [id=251196, name=北京涉外经济学院]
+1154 INFO  [2016-10-18 20:56:39]  School [id=251198, name=北京涉外艺术学院]
+1154 INFO  [2016-10-18 20:56:39]  School [id=251200, name=北京无线电动力技工学校]
+1154 INFO  [2016-10-18 20:56:39]  School [id=251221, name=北京毛戈平形象设计艺术学校]
+1154 INFO  [2016-10-18 20:56:39]  School [id=251223, name=北京高等秘书研修学院]
+1154 INFO  [2016-10-18 20:56:39]  School [id=251224, name=北京市商业学校]
+1154 INFO  [2016-10-18 20:56:39]  School [id=251228, name=北京外国语大学国际商学院]
+1154 INFO  [2016-10-18 20:56:39]  School [id=251230, name=北京市西城经济科学大学]
+1155 INFO  [2016-10-18 20:56:39]  School [id=251237, name=北京电子职业技术学院]
+1155 INFO  [2016-10-18 20:56:39]  School [id=251240, name=北京现代管理大学]
+1155 INFO  [2016-10-18 20:56:39]  School [id=251246, name=北京新媒体技师学院]
+1155 INFO  [2016-10-18 20:56:39]  School [id=251262, name=北京人民警察学院]
+1155 INFO  [2016-10-18 20:56:39]  School [id=251278, name=北京外事研修学院]
+1155 INFO  [2016-10-18 20:56:39]  School [id=251307, name=北京装甲兵工程学院]
+1155 INFO  [2016-10-18 20:56:39]  School [id=251310, name=北京经济研修学院]
+1156 INFO  [2016-10-18 20:56:39]  School [id=251313, name=北方工商管理学院]
+1156 INFO  [2016-10-18 20:56:39]  School [id=251452, name=北京迷笛音乐学院]
+1156 INFO  [2016-10-18 20:56:39]  School [id=253938, name=北京明园大学]
+1156 INFO  [2016-10-18 20:56:39]  School [id=257658, name=北京东方研修学院航空旅游分院]
+1156 INFO  [2016-10-18 20:56:39]  School [id=266742, name=北京建筑工程学院]
+1156 INFO  [2016-10-18 20:56:39]  School [id=273821, name=北京医学院]
+1156 INFO  [2016-10-18 20:56:39]  School [id=273822, name=北京医科大学]
+1157 INFO  [2016-10-18 20:56:39]  School [id=273823, name=北京信息工程学院]
+1157 INFO  [2016-10-18 20:56:39]  School [id=273824, name=北京协和医科大学]
+1157 INFO  [2016-10-18 20:56:39]  School [id=273825, name=北京外国语学院]
+1157 INFO  [2016-10-18 20:56:39]  School [id=273826, name=北京涉外经济专修学院]
+1157 INFO  [2016-10-18 20:56:39]  School [id=273827, name=北京企业管理学院]
+1157 INFO  [2016-10-18 20:56:39]  School [id=273828, name=北京培黎大学]
+1158 INFO  [2016-10-18 20:56:39]  School [id=273829, name=北京联合大学应用文理学院]
+1158 INFO  [2016-10-18 20:56:39]  School [id=273830, name=北京联合大学应用科技学院]
+1158 INFO  [2016-10-18 20:56:39]  School [id=273831, name=北京联合大学信息工程学院]
+1158 INFO  [2016-10-18 20:56:39]  School [id=273832, name=北京联合大学师范学院]
+1158 INFO  [2016-10-18 20:56:39]  School [id=273833, name=北京联合大学商务学院]
+1158 INFO  [2016-10-18 20:56:39]  School [id=273834, name=北京联合大学旅游学院]
+1158 INFO  [2016-10-18 20:56:39]  School [id=273835, name=北京联合大学机电学院]
+1159 INFO  [2016-10-18 20:56:39]  School [id=273836, name=北京联合大学广告学院]
+1159 INFO  [2016-10-18 20:56:39]  School [id=273837, name=北京联合大学(小营校区)]
+1159 INFO  [2016-10-18 20:56:39]  School [id=273838, name=北京科技大学(管庄校区)]
+1159 INFO  [2016-10-18 20:56:39]  School [id=273839, name=北京解放军艺术学院]
+1159 INFO  [2016-10-18 20:56:39]  School [id=273840, name=北京工业大学通州分校]
+1160 INFO  [2016-10-18 20:56:39]  School [id=273841, name=北京高等秘书学院]
+1160 INFO  [2016-10-18 20:56:39]  School [id=273842, name=北京第二外国语大学]
+1160 INFO  [2016-10-18 20:56:39]  School [id=273843, name=北京大学马克思主义学院]
+1160 INFO  [2016-10-18 20:56:39]  School [id=273844, name=北京北大方正软件职业技术学院]
+1160 INFO  [2016-10-18 20:56:39]  School [id=273845, name=北大资源美术学院]
+1160 INFO  [2016-10-18 20:56:39]  School [id=273860, name=北京现代软件学院]
+1160 INFO  [2016-10-18 20:56:39]  School [id=255794, name=北京市总工会职工大学]
+1160 INFO  [2016-10-18 20:56:39]  School [id=257268, name=北京协和医学院]
+1161 INFO  [2016-10-18 20:56:39]  School [id=257352, name=北京审美美容美发化妆造型艺术学校]
+1161 INFO  [2016-10-18 20:56:39]  School [id=257687, name=北京市工贸高级技工学校]
+1161 INFO  [2016-10-18 20:56:39]  School [id=246592, name=北京数字影视学院]
+1161 INFO  [2016-10-18 20:56:39]  School [id=254875, name=北京社会函授大学]
+1161 INFO  [2016-10-18 20:56:39]  School [id=257252, name=北京市委党校]
+1161 INFO  [2016-10-18 20:56:39]  School [id=273582, name=北京卫生职业学院]
+1161 INFO  [2016-10-18 20:56:39]  School [id=246897, name=北京医学高等专科学校]
+1161 INFO  [2016-10-18 20:56:39]  School [id=251123, name=北京中医药大学针灸学院]
+1161 INFO  [2016-10-18 20:56:39]  School [id=257158, name=北京航空航天现代远程学院]
+1161 INFO  [2016-10-18 20:56:39]  School [id=257368, name=北京市政法管理干部学院]
+1162 INFO  [2016-10-18 20:56:39]  School [id=257925, name=北京市社会科学院]
+1162 INFO  [2016-10-18 20:56:39]  School [id=257934, name=北京东方文化艺术学院]
+1162 INFO  [2016-10-18 20:56:39]  School [id=266543, name=北京商业管理干部学院]
+1162 INFO  [2016-10-18 20:56:39]  School [id=246901, name=北京数字影视学院]
+1162 INFO  [2016-10-18 20:56:39]  School [id=257180, name=北京理工大学远程教育学院]
+1162 INFO  [2016-10-18 20:56:39]  School [id=257222, name=北京商学院]
+1162 INFO  [2016-10-18 20:56:39]  School [id=257239, name=北京东方大学]
+1163 INFO  [2016-10-18 20:56:39]  School [id=257265, name=北京珠宝首饰研修学院]
+1163 INFO  [2016-10-18 20:56:39]  School [id=257267, name=北京水晶石数字教育学院]
+1163 INFO  [2016-10-18 20:56:39]  School [id=257926, name=北京铁道管理干部学院]
+1163 INFO  [2016-10-18 20:56:39]  School [id=273581, name=北京艺术传媒职业学院]
+1163 INFO  [2016-10-18 20:56:39]  School [id=257165, name=北京市计划劳动管理干部学院]
+1163 INFO  [2016-10-18 20:56:39]  School [id=257941, name=北京计划劳动管理干部学院]
+1163 INFO  [2016-10-18 20:56:39]  School [id=257935, name=北京瀚林职业学院]
+1163 INFO  [2016-10-18 20:56:39]  School [id=261233, name=北京经济技术学院]
+1163 INFO  [2016-10-18 20:56:39]  School [id=255352, name=北京影视研修学院]
+1163 INFO  [2016-10-18 20:56:39]  School [id=256073, name=北京财贸管理干部学院]
+0    DEBUG [2016-10-18 20:57:00]  Request:
+1    DEBUG [2016-10-18 20:57:00]  GET:https://api.weibo.com/2/friendships/followers/active.json
+49   DEBUG [2016-10-18 20:57:00]  Authorization: OAuth2 2.004DezPC6P3DdD00518038e19iDRoD
+50   DEBUG [2016-10-18 20:57:00]  API-RemoteIP: 10.170.55.142
+1876 DEBUG [2016-10-18 20:57:02]  Response:
+1876 DEBUG [2016-10-18 20:57:02]  https StatusCode:200
+1876 DEBUG [2016-10-18 20:57:02]  Server:nginx/1.6.1
+1876 DEBUG [2016-10-18 20:57:02]  Date:Tue, 18 Oct 2016 12:57:01 GMT
+1876 DEBUG [2016-10-18 20:57:02]  Content-Type:application/json;charset=UTF-8
+1877 DEBUG [2016-10-18 20:57:02]  Transfer-Encoding:chunked
+1877 DEBUG [2016-10-18 20:57:02]  Connection:keep-alive
+1877 DEBUG [2016-10-18 20:57:02]  Api-Server-IP:10.77.108.38
+1877 DEBUG [2016-10-18 20:57:02]  Vary:Accept-Encoding
+1877 DEBUG [2016-10-18 20:57:02]  SINA-LB:aGEuMTc1LmcxLnNlLmxiLnNpbmFub2RlLmNvbQ==
+1877 DEBUG [2016-10-18 20:57:02]  SINA-TS:NGQ4OGMzNjggMCAxIDEgNiA1Nwo=
+1880 WARN  [2016-10-18 20:57:02]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1881 DEBUG [2016-10-18 20:57:02]  {"users":[{"id":3044272602,"idstr":"3044272602","class":1,"screen_name":"双子陈德明","name":"双子陈德明","province":"100","city":"1000","location":"其他","description":"","url":"","profile_image_url":"http://tva1.sinaimg.cn/crop.0.0.180.180.50/b573e9dajw1e8qgp5bmzyj2050050aa8.jpg","profile_url":"u/3044272602","domain":"","weihao":"","gender":"f","followers_count":202,"friends_count":2000,"pagefriends_count":0,"statuses_count":5129,"favourites_count":0,"created_at":"Thu Nov 01 18:55:26 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tva1.sinaimg.cn/crop.0.0.180.180.180/b573e9dajw1e8qgp5bmzyj2050050aa8.jpg","avatar_hd":"http://tva1.sinaimg.cn/crop.0.0.180.180.1024/b573e9dajw1e8qgp5bmzyj2050050aa8.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":89,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":0,"urank":25},{"id":3044903724,"idstr":"3044903724","class":1,"screen_name":"honey杨军营","name":"honey杨军营","province":"100","city":"1000","location":"其他","description":"","url":"","profile_image_url":"http://tva1.sinaimg.cn/crop.0.0.180.180.50/b57d8b2cjw1e8qgp5bmzyj2050050aa8.jpg","profile_url":"u/3044903724","domain":"","weihao":"","gender":"m","followers_count":220,"friends_count":2000,"pagefriends_count":0,"statuses_count":5056,"favourites_count":0,"created_at":"Thu Nov 01 22:36:43 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tva1.sinaimg.cn/crop.0.0.180.180.180/b57d8b2cjw1e8qgp5bmzyj2050050aa8.jpg","avatar_hd":"http://tva1.sinaimg.cn/crop.0.0.180.180.1024/b57d8b2cjw1e8qgp5bmzyj2050050aa8.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":101,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":0,"urank":25},{"id":3022722317,"idstr":"3022722317","class":1,"screen_name":"万独孤","name":"万独孤","province":"100","city":"1000","location":"其他","description":"睡起有茶饥有饭，行看流水坐看云","url":"","profile_image_url":"http://tva1.sinaimg.cn/crop.0.0.180.180.50/b42b150djw1e8qgp5bmzyj2050050aa8.jpg","cover_image_phone":"http://ww1.sinaimg.cn/crop.0.0.640.640.640/549d0121tw1egm1kjly3jj20hs0hsq4f.jpg","profile_url":"wandugu","domain":"wandugu","weihao":"","gender":"m","followers_count":27,"friends_count":119,"pagefriends_count":1,"statuses_count":8,"favourites_count":0,"created_at":"Wed Dec 19 17:29:12 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":false,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tva1.sinaimg.cn/crop.0.0.180.180.180/b42b150djw1e8qgp5bmzyj2050050aa8.jpg","avatar_hd":"http://tva1.sinaimg.cn/crop.0.0.180.180.1024/b42b150djw1e8qgp5bmzyj2050050aa8.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":23,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":1024,"urank":10},{"id":3044217250,"idstr":"3044217250","class":1,"screen_name":"林芬的小媳妇","name":"林芬的小媳妇","province":"100","city":"1000","location":"其他","description":"","url":"","profile_image_url":"http://tva4.sinaimg.cn/crop.0.0.180.180.50/b57311a2jw1e8qgp5bmzyj2050050aa8.jpg","profile_url":"u/3044217250","domain":"","weihao":"","gender":"m","followers_count":212,"friends_count":2000,"pagefriends_count":0,"statuses_count":5173,"favourites_count":0,"created_at":"Thu Nov 01 18:29:02 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tva4.sinaimg.cn/crop.0.0.180.180.180/b57311a2jw1e8qgp5bmzyj2050050aa8.jpg","avatar_hd":"http://tva4.sinaimg.cn/crop.0.0.180.180.1024/b57311a2jw1e8qgp5bmzyj2050050aa8.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":112,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":0,"urank":25},{"id":3045243434,"idstr":"3045243434","class":1,"screen_name":"3045243434zzn","name":"3045243434zzn","province":"100","city":"1000","location":"其他","description":"","url":"","profile_image_url":"http://tva3.sinaimg.cn/crop.0.0.180.180.50/b582ba2ajw1e8qgp5bmzyj2050050aa8.jpg","profile_url":"u/3045243434","domain":"","weihao":"","gender":"f","followers_count":228,"friends_count":2000,"pagefriends_count":0,"statuses_count":5016,"favourites_count":0,"created_at":"Fri Nov 02 01:01:06 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tva3.sinaimg.cn/crop.0.0.180.180.180/b582ba2ajw1e8qgp5bmzyj2050050aa8.jpg","avatar_hd":"http://tva3.sinaimg.cn/crop.0.0.180.180.1024/b582ba2ajw1e8qgp5bmzyj2050050aa8.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":90,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":0,"urank":25}]}
+
+0    DEBUG [2016-10-18 20:57:09]  Request:
+1    DEBUG [2016-10-18 20:57:09]  GET:https://api.weibo.com/2/users/show.json
+59   DEBUG [2016-10-18 20:57:09]  Authorization: OAuth2 2.004DezPC6P3DdD00518038e19iDRoD
+59   DEBUG [2016-10-18 20:57:09]  API-RemoteIP: 10.170.55.142
+927  DEBUG [2016-10-18 20:57:10]  Response:
+927  DEBUG [2016-10-18 20:57:10]  https StatusCode:200
+927  DEBUG [2016-10-18 20:57:10]  Server:nginx/1.6.1
+927  DEBUG [2016-10-18 20:57:10]  Date:Tue, 18 Oct 2016 12:57:10 GMT
+927  DEBUG [2016-10-18 20:57:10]  Content-Type:application/json;charset=UTF-8
+928  DEBUG [2016-10-18 20:57:10]  Transfer-Encoding:chunked
+928  DEBUG [2016-10-18 20:57:10]  Connection:keep-alive
+928  DEBUG [2016-10-18 20:57:10]  Api-Server-IP:10.75.5.92
+928  DEBUG [2016-10-18 20:57:10]  Vary:Accept-Encoding
+930  WARN  [2016-10-18 20:57:10]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+931  DEBUG [2016-10-18 20:57:10]  {"id":2068602681,"idstr":"2068602681","class":1,"screen_name":"ILOEFHR","name":"ILOEFHR","province":"61","city":"1","location":"陕西 西安","description":"","url":"","profile_image_url":"http://tva2.sinaimg.cn/default/images/default_avatar_male_50.gif","cover_image_phone":"http://ww1.sinaimg.cn/crop.0.0.640.640.640/549d0121tw1egm1kjly3jj20hs0hsq4f.jpg","profile_url":"u/2068602681","domain":"","weihao":"","gender":"m","followers_count":20,"friends_count":84,"pagefriends_count":0,"statuses_count":15,"favourites_count":17,"created_at":"Mon Apr 04 18:39:32 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status":{"created_at":"Sun Oct 16 09:52:16 +0800 2016","id":4031142527042054,"mid":"4031142527042054","idstr":"4031142527042054","text":"哈哈哈，刷刷存在感","textLength":18,"source_allowclick":0,"source_type":1,"source":"<a href=\"http://app.weibo.com/t/feed/5mmYAj\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"reposts_count":0,"comments_count":0,"attitudes_count":0,"isLongText":false,"mlevel":0,"visible":{"type":0,"list_id":0},"biz_feature":0,"hasActionTypeCard":0,"darwin_tags":[],"hot_weibo_tags":[],"text_tag_tips":[],"userType":0,"positive_recom_flag":0,"gif_ids":"","is_show_bulletin":2},"ptype":0,"allow_all_comment":true,"avatar_large":"http://tva2.sinaimg.cn/default/images/default_avatar_male_180.gif","avatar_hd":"http://tva2.sinaimg.cn/default/images/default_avatar_male_180.gif","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":4,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":1024,"urank":9}
+
+945  DEBUG [2016-10-18 20:57:10]  Request:
+945  DEBUG [2016-10-18 20:57:10]  GET:https://api.weibo.com/2/friendships/followers.json
+946  DEBUG [2016-10-18 20:57:10]  Authorization: OAuth2 2.004DezPC6P3DdD00518038e19iDRoD
+946  DEBUG [2016-10-18 20:57:10]  API-RemoteIP: 10.170.55.142
+1087 DEBUG [2016-10-18 20:57:10]  Response:
+1088 DEBUG [2016-10-18 20:57:10]  https StatusCode:200
+1088 DEBUG [2016-10-18 20:57:10]  Server:nginx/1.6.1
+1088 DEBUG [2016-10-18 20:57:10]  Date:Tue, 18 Oct 2016 12:57:10 GMT
+1088 DEBUG [2016-10-18 20:57:10]  Content-Type:application/json;charset=UTF-8
+1088 DEBUG [2016-10-18 20:57:10]  Transfer-Encoding:chunked
+1088 DEBUG [2016-10-18 20:57:10]  Connection:keep-alive
+1089 DEBUG [2016-10-18 20:57:10]  Api-Server-IP:10.77.9.142
+1089 DEBUG [2016-10-18 20:57:10]  Vary:Accept-Encoding
+1089 WARN  [2016-10-18 20:57:10]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1089 DEBUG [2016-10-18 20:57:10]  {"users":[{"id":5242845540,"idstr":"5242845540","class":1,"screen_name":"安静笑旋","name":"安静笑旋","province":"32","city":"1","location":"江苏 南京","description":"我落日般的忧伤就像惆怅的飞鸟，惆怅的飞鸟飞成我落日般的忧伤。","url":"","profile_image_url":"http://tva3.sinaimg.cn/crop.0.0.200.200.50/005IOrCQjw1ej5125v04pj305k05ka9z.jpg","profile_url":"u/5242845540","domain":"","weihao":"","gender":"f","followers_count":572,"friends_count":1401,"pagefriends_count":0,"statuses_count":2414,"favourites_count":0,"created_at":"Wed Aug 06 10:25:59 +0800 2014","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status_id":-1,"ptype":0,"allow_all_comment":true,"avatar_large":"http://tva3.sinaimg.cn/crop.0.0.200.200.180/005IOrCQjw1ej5125v04pj305k05ka9z.jpg","avatar_hd":"http://tva3.sinaimg.cn/crop.0.0.200.200.1024/005IOrCQjw1ej5125v04pj305k05ka9z.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":true,"online_status":0,"bi_followers_count":502,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":0,"urank":23},{"id":3022722317,"idstr":"3022722317","class":1,"screen_name":"万独孤","name":"万独孤","province":"100","city":"1000","location":"其他","description":"睡起有茶饥有饭，行看流水坐看云","url":"","profile_image_url":"http://tva1.sinaimg.cn/crop.0.0.180.180.50/b42b150djw1e8qgp5bmzyj2050050aa8.jpg","cover_image_phone":"http://ww1.sinaimg.cn/crop.0.0.640.640.640/549d0121tw1egm1kjly3jj20hs0hsq4f.jpg","profile_url":"wandugu","domain":"wandugu","weihao":"","gender":"m","followers_count":27,"friends_count":119,"pagefriends_count":1,"statuses_count":8,"favourites_count":0,"created_at":"Wed Dec 19 17:29:12 +0800 2012","following":true,"allow_all_act_msg":false,"geo_enabled":false,"verified":false,"verified_type":-1,"remark":"","status_id":4001608461567516,"ptype":0,"allow_all_comment":true,"avatar_large":"http://tva1.sinaimg.cn/crop.0.0.180.180.180/b42b150djw1e8qgp5bmzyj2050050aa8.jpg","avatar_hd":"http://tva1.sinaimg.cn/crop.0.0.180.180.1024/b42b150djw1e8qgp5bmzyj2050050aa8.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":true,"online_status":0,"bi_followers_count":23,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":1024,"urank":10},{"id":5775621768,"idstr":"5775621768","class":1,"screen_name":"梦黎-bobo","name":"梦黎-bobo","province":"100","city":"1000","location":"其他","description":"","url":"","profile_image_url":"http://tva4.sinaimg.cn/crop.0.0.200.200.50/006iRV3Ojw1ez4deuxuo1j305k05kmwz.jpg","profile_url":"u/5775621768","domain":"","weihao":"","gender":"f","followers_count":199,"friends_count":1394,"pagefriends_count":0,"statuses_count":14,"favourites_count":0,"created_at":"Tue Dec 01 14:46:06 +0800 2015","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status_id":3975396536014356,"ptype":0,"allow_all_comment":true,"avatar_large":"http://tva4.sinaimg.cn/crop.0.0.200.200.180/006iRV3Ojw1ez4deuxuo1j305k05kmwz.jpg","avatar_hd":"http://tva4.sinaimg.cn/crop.0.0.200.200.1024/006iRV3Ojw1ez4deuxuo1j305k05kmwz.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":true,"online_status":0,"bi_followers_count":84,"lang":"zh-cn","star":0,"mbtype":2,"mbrank":1,"block_word":0,"block_app":0,"credit_score":80,"user_ability":1024,"urank":7},{"id":5264203823,"idstr":"5264203823","class":1,"screen_name":"骄傲的冰山ltgt玉蓝","name":"骄傲的冰山ltgt玉蓝","province":"11","city":"13","location":"北京 顺义区","description":"","url":"","profile_image_url":"http://tp4.sinaimg.cn/5264203823/50/5703881768/1","profile_url":"u/5264203823","domain":"","weihao":"","gender":"m","followers_count":203,"friends_count":1999,"pagefriends_count":0,"statuses_count":1851,"favourites_count":0,"created_at":"Sat Aug 23 11:01:27 +0800 2014","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status_id":4032018150499742,"ptype":0,"allow_all_comment":true,"avatar_large":"http://tp4.sinaimg.cn/5264203823/180/5703881768/1","avatar_hd":"http://tp4.sinaimg.cn/5264203823/180/5703881768/1","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":true,"online_status":0,"bi_followers_count":141,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":0,"urank":12},{"id":2077772715,"idstr":"2077772715","class":1,"screen_name":"西电国学社","name":"西电国学社","province":"61","city":"1","location":"陕西 西安","description":"为天地立心。为生民立命。为往圣继绝学。为万世开太平。","url":"http://blog.sina.com.cn/xidianguoxueshe","profile_image_url":"http://tva4.sinaimg.cn/crop.0.0.996.996.50/7bd84babjw8f20oxp3e0wj20ro0rpgnm.jpg","cover_image_phone":"http://ww1.sinaimg.cn/crop.0.0.640.640.640/549d0121tw1egm1kjly3jj20hs0hsq4f.jpg","profile_url":"xidianguoxueshe","domain":"xidianguoxueshe","weihao":"","gender":"m","followers_count":135,"friends_count":207,"pagefriends_count":2,"statuses_count":603,"favourites_count":3,"created_at":"Sun Jun 19 00:49:01 +0800 2011","following":true,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status_id":4017385767253930,"ptype":0,"allow_all_comment":true,"avatar_large":"http://tva4.sinaimg.cn/crop.0.0.996.996.180/7bd84babjw8f20oxp3e0wj20ro0rpgnm.jpg","avatar_hd":"http://tva4.sinaimg.cn/crop.0.0.996.996.1024/7bd84babjw8f20oxp3e0wj20ro0rpgnm.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":true,"online_status":0,"bi_followers_count":60,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":1024,"urank":14}],"next_cursor":0,"previous_cursor":0,"total_number":24,"display_total_number":20}
+
+1451 DEBUG [2016-10-18 20:57:11]  Request:
+1451 DEBUG [2016-10-18 20:57:11]  GET:https://api.weibo.com/2/friendships/followers.json
+1452 DEBUG [2016-10-18 20:57:11]  Authorization: OAuth2 2.004DezPC6P3DdD00518038e19iDRoD
+1452 DEBUG [2016-10-18 20:57:11]  API-RemoteIP: 10.170.55.142
+1537 DEBUG [2016-10-18 20:57:11]  Response:
+1538 DEBUG [2016-10-18 20:57:11]  https StatusCode:200
+1538 DEBUG [2016-10-18 20:57:11]  Server:nginx/1.6.1
+1538 DEBUG [2016-10-18 20:57:11]  Date:Tue, 18 Oct 2016 12:57:11 GMT
+1538 DEBUG [2016-10-18 20:57:11]  Content-Type:application/json;charset=UTF-8
+1538 DEBUG [2016-10-18 20:57:11]  Transfer-Encoding:chunked
+1538 DEBUG [2016-10-18 20:57:11]  Connection:keep-alive
+1538 DEBUG [2016-10-18 20:57:11]  Api-Server-IP:10.77.9.142
+1538 DEBUG [2016-10-18 20:57:11]  Vary:Accept-Encoding
+1539 WARN  [2016-10-18 20:57:11]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1539 DEBUG [2016-10-18 20:57:11]  {"users":[{"id":5242845540,"idstr":"5242845540","class":1,"screen_name":"安静笑旋","name":"安静笑旋","province":"32","city":"1","location":"江苏 南京","description":"我落日般的忧伤就像惆怅的飞鸟，惆怅的飞鸟飞成我落日般的忧伤。","url":"","profile_image_url":"http://tva3.sinaimg.cn/crop.0.0.200.200.50/005IOrCQjw1ej5125v04pj305k05ka9z.jpg","profile_url":"u/5242845540","domain":"","weihao":"","gender":"f","followers_count":572,"friends_count":1401,"pagefriends_count":0,"statuses_count":2414,"favourites_count":0,"created_at":"Wed Aug 06 10:25:59 +0800 2014","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status_id":-1,"ptype":0,"allow_all_comment":true,"avatar_large":"http://tva3.sinaimg.cn/crop.0.0.200.200.180/005IOrCQjw1ej5125v04pj305k05ka9z.jpg","avatar_hd":"http://tva3.sinaimg.cn/crop.0.0.200.200.1024/005IOrCQjw1ej5125v04pj305k05ka9z.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":true,"online_status":0,"bi_followers_count":502,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":0,"urank":23},{"id":3022722317,"idstr":"3022722317","class":1,"screen_name":"万独孤","name":"万独孤","province":"100","city":"1000","location":"其他","description":"睡起有茶饥有饭，行看流水坐看云","url":"","profile_image_url":"http://tva1.sinaimg.cn/crop.0.0.180.180.50/b42b150djw1e8qgp5bmzyj2050050aa8.jpg","cover_image_phone":"http://ww1.sinaimg.cn/crop.0.0.640.640.640/549d0121tw1egm1kjly3jj20hs0hsq4f.jpg","profile_url":"wandugu","domain":"wandugu","weihao":"","gender":"m","followers_count":27,"friends_count":119,"pagefriends_count":1,"statuses_count":8,"favourites_count":0,"created_at":"Wed Dec 19 17:29:12 +0800 2012","following":true,"allow_all_act_msg":false,"geo_enabled":false,"verified":false,"verified_type":-1,"remark":"","status_id":4001608461567516,"ptype":0,"allow_all_comment":true,"avatar_large":"http://tva1.sinaimg.cn/crop.0.0.180.180.180/b42b150djw1e8qgp5bmzyj2050050aa8.jpg","avatar_hd":"http://tva1.sinaimg.cn/crop.0.0.180.180.1024/b42b150djw1e8qgp5bmzyj2050050aa8.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":true,"online_status":0,"bi_followers_count":23,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":1024,"urank":10},{"id":5775621768,"idstr":"5775621768","class":1,"screen_name":"梦黎-bobo","name":"梦黎-bobo","province":"100","city":"1000","location":"其他","description":"","url":"","profile_image_url":"http://tva4.sinaimg.cn/crop.0.0.200.200.50/006iRV3Ojw1ez4deuxuo1j305k05kmwz.jpg","profile_url":"u/5775621768","domain":"","weihao":"","gender":"f","followers_count":199,"friends_count":1394,"pagefriends_count":0,"statuses_count":14,"favourites_count":0,"created_at":"Tue Dec 01 14:46:06 +0800 2015","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status_id":3975396536014356,"ptype":0,"allow_all_comment":true,"avatar_large":"http://tva4.sinaimg.cn/crop.0.0.200.200.180/006iRV3Ojw1ez4deuxuo1j305k05kmwz.jpg","avatar_hd":"http://tva4.sinaimg.cn/crop.0.0.200.200.1024/006iRV3Ojw1ez4deuxuo1j305k05kmwz.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":true,"online_status":0,"bi_followers_count":84,"lang":"zh-cn","star":0,"mbtype":2,"mbrank":1,"block_word":0,"block_app":0,"credit_score":80,"user_ability":1024,"urank":7},{"id":5264203823,"idstr":"5264203823","class":1,"screen_name":"骄傲的冰山ltgt玉蓝","name":"骄傲的冰山ltgt玉蓝","province":"11","city":"13","location":"北京 顺义区","description":"","url":"","profile_image_url":"http://tp4.sinaimg.cn/5264203823/50/5703881768/1","profile_url":"u/5264203823","domain":"","weihao":"","gender":"m","followers_count":203,"friends_count":1999,"pagefriends_count":0,"statuses_count":1851,"favourites_count":0,"created_at":"Sat Aug 23 11:01:27 +0800 2014","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status_id":4032018150499742,"ptype":0,"allow_all_comment":true,"avatar_large":"http://tp4.sinaimg.cn/5264203823/180/5703881768/1","avatar_hd":"http://tp4.sinaimg.cn/5264203823/180/5703881768/1","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":true,"online_status":0,"bi_followers_count":141,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":0,"urank":12},{"id":2077772715,"idstr":"2077772715","class":1,"screen_name":"西电国学社","name":"西电国学社","province":"61","city":"1","location":"陕西 西安","description":"为天地立心。为生民立命。为往圣继绝学。为万世开太平。","url":"http://blog.sina.com.cn/xidianguoxueshe","profile_image_url":"http://tva4.sinaimg.cn/crop.0.0.996.996.50/7bd84babjw8f20oxp3e0wj20ro0rpgnm.jpg","cover_image_phone":"http://ww1.sinaimg.cn/crop.0.0.640.640.640/549d0121tw1egm1kjly3jj20hs0hsq4f.jpg","profile_url":"xidianguoxueshe","domain":"xidianguoxueshe","weihao":"","gender":"m","followers_count":135,"friends_count":207,"pagefriends_count":2,"statuses_count":603,"favourites_count":3,"created_at":"Sun Jun 19 00:49:01 +0800 2011","following":true,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status_id":4017385767253930,"ptype":0,"allow_all_comment":true,"avatar_large":"http://tva4.sinaimg.cn/crop.0.0.996.996.180/7bd84babjw8f20oxp3e0wj20ro0rpgnm.jpg","avatar_hd":"http://tva4.sinaimg.cn/crop.0.0.996.996.1024/7bd84babjw8f20oxp3e0wj20ro0rpgnm.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":true,"online_status":0,"bi_followers_count":60,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":1024,"urank":14}],"next_cursor":0,"previous_cursor":0,"total_number":24,"display_total_number":20}
+
+0    DEBUG [2016-10-18 20:57:21]  Request:
+0    DEBUG [2016-10-18 20:57:21]  GET:https://api.weibo.com/2/friendships/friends/bilateral.json
+56   DEBUG [2016-10-18 20:57:21]  Authorization: OAuth2 2.004DezPC6P3DdD00518038e19iDRoD
+57   DEBUG [2016-10-18 20:57:21]  API-RemoteIP: 10.170.55.142
+955  DEBUG [2016-10-18 20:57:22]  Response:
+955  DEBUG [2016-10-18 20:57:22]  https StatusCode:200
+955  DEBUG [2016-10-18 20:57:22]  Server:nginx/1.6.1
+955  DEBUG [2016-10-18 20:57:22]  Date:Tue, 18 Oct 2016 12:57:21 GMT
+955  DEBUG [2016-10-18 20:57:22]  Content-Type:application/json;charset=UTF-8
+955  DEBUG [2016-10-18 20:57:22]  Transfer-Encoding:chunked
+955  DEBUG [2016-10-18 20:57:22]  Connection:keep-alive
+955  DEBUG [2016-10-18 20:57:22]  Api-Server-IP:10.75.5.96
+956  DEBUG [2016-10-18 20:57:22]  Vary:Accept-Encoding
+957  WARN  [2016-10-18 20:57:22]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+958  DEBUG [2016-10-18 20:57:22]  {"users":[{"id":3022722317,"idstr":"3022722317","class":1,"screen_name":"万独孤","name":"万独孤","province":"100","city":"1000","location":"其他","description":"睡起有茶饥有饭，行看流水坐看云","url":"","profile_image_url":"http://tva1.sinaimg.cn/crop.0.0.180.180.50/b42b150djw1e8qgp5bmzyj2050050aa8.jpg","cover_image_phone":"http://ww1.sinaimg.cn/crop.0.0.640.640.640/549d0121tw1egm1kjly3jj20hs0hsq4f.jpg","profile_url":"wandugu","domain":"wandugu","weihao":"","gender":"m","followers_count":28,"friends_count":119,"pagefriends_count":1,"statuses_count":8,"favourites_count":0,"created_at":"Wed Dec 19 17:29:12 +0800 2012","following":true,"allow_all_act_msg":false,"geo_enabled":false,"verified":false,"verified_type":-1,"remark":"","status":{"created_at":"Tue Jul 26 21:54:25 +0800 2016","id":4001608461567516,"mid":"4001608461567516","idstr":"4001608461567516","text":"这脑洞我服[偷笑]，强弱掌握的挺好的。拍摄再专业点就完美了[馋嘴]『腾讯视频』http://t.cn/RtqLQXq","textLength":93,"source_allowclick":0,"source_type":1,"source":"<a href=\"http://app.weibo.com/t/feed/5Nu7MV\" rel=\"nofollow\">华为P9手机摄影再突破</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"annotations":[{"shooting":1,"client_mblogid":"d4a0f41f-2f2b-4533-9856-4d4901793e46"},{"mapi_request":true}],"reposts_count":0,"comments_count":0,"attitudes_count":0,"isLongText":false,"mlevel":0,"visible":{"type":0,"list_id":0},"biz_feature":0,"hasActionTypeCard":0,"darwin_tags":[],"hot_weibo_tags":[],"text_tag_tips":[],"userType":0,"positive_recom_flag":0,"gif_ids":"","is_show_bulletin":0},"ptype":0,"allow_all_comment":true,"avatar_large":"http://tva1.sinaimg.cn/crop.0.0.180.180.180/b42b150djw1e8qgp5bmzyj2050050aa8.jpg","avatar_hd":"http://tva1.sinaimg.cn/crop.0.0.180.180.1024/b42b150djw1e8qgp5bmzyj2050050aa8.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":true,"online_status":0,"bi_followers_count":23,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":1024,"urank":10}],"total_number":4}
+
+1    DEBUG [2016-10-18 20:57:30]  Request:
+1    DEBUG [2016-10-18 20:57:30]  GET:https://api.weibo.com/2/friendships/friends_chain/followers.json
+48   DEBUG [2016-10-18 20:57:30]  Authorization: OAuth2 2.004DezPC6P3DdD00518038e19iDRoD
+48   DEBUG [2016-10-18 20:57:30]  API-RemoteIP: 10.170.55.142
+961  DEBUG [2016-10-18 20:57:31]  Response:
+961  DEBUG [2016-10-18 20:57:31]  https StatusCode:200
+961  DEBUG [2016-10-18 20:57:31]  Server:nginx/1.6.1
+962  DEBUG [2016-10-18 20:57:31]  Date:Tue, 18 Oct 2016 12:57:31 GMT
+962  DEBUG [2016-10-18 20:57:31]  Content-Type:application/json;charset=UTF-8
+962  DEBUG [2016-10-18 20:57:31]  Transfer-Encoding:chunked
+962  DEBUG [2016-10-18 20:57:31]  Connection:keep-alive
+962  DEBUG [2016-10-18 20:57:31]  Api-Server-IP:10.77.9.145
+962  DEBUG [2016-10-18 20:57:31]  Vary:Accept-Encoding
+964  WARN  [2016-10-18 20:57:31]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+965  DEBUG [2016-10-18 20:57:31]  {"users":[{"id":2077772715,"idstr":"2077772715","class":1,"screen_name":"西电国学社","name":"西电国学社","province":"61","city":"1","location":"陕西 西安","description":"为天地立心。为生民立命。为往圣继绝学。为万世开太平。","url":"http://blog.sina.com.cn/xidianguoxueshe","profile_image_url":"http://tva4.sinaimg.cn/crop.0.0.996.996.50/7bd84babjw8f20oxp3e0wj20ro0rpgnm.jpg","cover_image_phone":"http://ww1.sinaimg.cn/crop.0.0.640.640.640/549d0121tw1egm1kjly3jj20hs0hsq4f.jpg","profile_url":"xidianguoxueshe","domain":"xidianguoxueshe","weihao":"","gender":"m","followers_count":135,"friends_count":207,"pagefriends_count":2,"statuses_count":603,"favourites_count":3,"created_at":"Sun Jun 19 00:49:01 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status":{"created_at":"Thu Sep 08 10:47:49 +0800 2016","id":4017385767253930,"mid":"4017385767253930","idstr":"4017385767253930","text":"#开学季#重返校园，拆现金红包，开启无限可能！快来参与每日校园签到，戳链接和我一起领现金红包~[心]http://t.cn/Rch18CI http://t.cn/8kdKSdH","textLength":134,"source_allowclick":0,"source_type":1,"source":"<a href=\"http://app.weibo.com/t/feed/1blIcJ\" rel=\"nofollow\">ZTE中兴星星1号</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"annotations":[{"shooting":1,"place":{"lon":108.82896051717,"poiid":"B2094656D26DA0F44892","title":"西安电子科技大学长安校区","type":"checkin","lat":34.122504663004},"client_mblogid":"27893e62-9e7d-4c78-8e2b-42f886ec1163"},{"mapi_request":true}],"reposts_count":0,"comments_count":0,"attitudes_count":0,"isLongText":false,"mlevel":0,"visible":{"type":0,"list_id":0},"biz_ids":[230632,100101],"biz_feature":0,"page_type":40,"hasActionTypeCard":0,"darwin_tags":[],"hot_weibo_tags":[],"text_tag_tips":[],"userType":0,"positive_recom_flag":0,"gif_ids":"","is_show_bulletin":2},"ptype":0,"allow_all_comment":true,"avatar_large":"http://tva4.sinaimg.cn/crop.0.0.996.996.180/7bd84babjw8f20oxp3e0wj20ro0rpgnm.jpg","avatar_hd":"http://tva4.sinaimg.cn/crop.0.0.996.996.1024/7bd84babjw8f20oxp3e0wj20ro0rpgnm.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":60,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":1024,"urank":14},{"id":2881743800,"idstr":"2881743800","class":1,"screen_name":"逍遥子不吃鱼","name":"逍遥子不吃鱼","province":"41","city":"17","location":"河南 驻马店","description":"","url":"","profile_image_url":"http://tva2.sinaimg.cn/crop.34.1.989.989.50/abc3ebb8jw1etsa5ifc2yj20sg0rmn4m.jpg","cover_image_phone":"http://ww1.sinaimg.cn/crop.0.0.640.640.640/549d0121tw1egm1kjly3jj20hs0hsq4f.jpg","profile_url":"fzgsqyzm","domain":"fzgsqyzm","weihao":"","gender":"m","followers_count":123,"friends_count":330,"pagefriends_count":9,"statuses_count":1557,"favourites_count":2,"created_at":"Fri Jul 27 14:19:59 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status":{"created_at":"Sat Oct 08 08:02:18 +0800 2016","id":4028215750662745,"mid":"4028215750662745","idstr":"4028215750662745","text":"//@西电科协: 纪念钱学森先生！","source_allowclick":0,"source_type":1,"source":"<a href=\"http://app.weibo.com/t/feed/4jqLc9\" rel=\"nofollow\">傲游云浏览器</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"reposts_count":0,"comments_count":0,"attitudes_count":0,"isLongText":false,"mlevel":0,"visible":{"type":0,"list_id":0},"biz_feature":0,"hasActionTypeCard":0,"darwin_tags":[],"hot_weibo_tags":[],"text_tag_tips":[],"userType":0,"positive_recom_flag":0,"gif_ids":"","is_show_bulletin":2},"ptype":0,"allow_all_comment":true,"avatar_large":"http://tva2.sinaimg.cn/crop.34.1.989.989.180/abc3ebb8jw1etsa5ifc2yj20sg0rmn4m.jpg","avatar_hd":"http://tva2.sinaimg.cn/crop.34.1.989.989.1024/abc3ebb8jw1etsa5ifc2yj20sg0rmn4m.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":60,"lang":"zh-hk","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":1024,"urank":20}],"total_number":2}
+
