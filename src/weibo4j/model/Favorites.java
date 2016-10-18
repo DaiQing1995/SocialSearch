@@ -50,6 +50,7 @@ public class Favorites extends WeiboResponse {
 				tags.add(new FavoritesTag(list.getJSONObject(i)));
 			}
 		}
+
 	}
 	public static List<Favorites> constructFavorites(Response res) throws WeiboException{
 		try {
