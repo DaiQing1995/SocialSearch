@@ -18,5 +18,4 @@ public class ShowFavorite {
 			e.printStackTrace();
 		}
 	}
-
 }
