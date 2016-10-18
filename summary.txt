@@ -1,0 +1,23 @@
+1.getFriendsByID()：Friendships_FriendsGet 获取用户关注只能拉取到前15个关注人
+
+
+2.关注读取接口中，获取共同关注人列表时，给出的方法只能传进去一个用户的uid（http://open.weibo.com/wiki/2/friendships/friends/in_common）
+	Example代码当中weibo4j.examples.friendships包下的GetFriendsInCommon.java中的getFriendsInCommon(String uid)这个方法；测试位置：com.cn.dataMine包下的FriendshipsFriendsInCommonGet.java
+	
+3.关注读取接口中，获取双向关注列表时，只能获取到一个互粉的用户http://open.weibo.com/wiki/2/friendships/friends/bilateral
+	Examples代码当中weibo4j.examples.friendships包下的GetFriendsBilateral.java中的getFriendsBilateral(String uid)这个方法;测试位置：com.cn.dataMine包下的FriendshipsFriendsBilateralGet.java
+
+4.粉丝读取接口中，获取用户粉丝列表时，只能获取到前五个粉丝http://open.weibo.com/wiki/2/friendships/followers 
+	Examples代码当中weibo4j.examples.friendships包下的GetFollowers.java中的getFollowersByName(String screen_name)这个方法;测试位置：com.cn.dataMine包下的FriendshipsFollowersGet.java
+
+5.粉丝读取接口中，获取用户优质粉丝列表时，只能获取到前六个优质粉丝
+	http://open.weibo.com/wiki/2/friendships/followers/active
+	Examples代码当中weibo4j.examples.friendships包下的GetFollowsActive.java中的getFollowersActive(String  uid) 这个方法;测试位置：com.cn.dataMine包下的FriendshipsFollowersActiveGet.java
+	
+6.
+	
+PS:
+	API文档过于陈旧（最近更新在两年前），写的也过于简单，甚至没有对应函数。
+	API未说清楚访问频次，及相关函数返回最大数目
+
+问题：AboutFavorites中有问题，打印内容相关
